@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 75px;
+}
+
+.rect_rouge {
+    width: 100%;
+    height: 75px;
+    background-color: red;
+}
+
+.carre {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.carre_violet {
+    width: 80px;
+    height: 80px;
+    background-color: purple;
+}
+
+.second_carre {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.carre_bleu {
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+}
+
+.rect_footer {
+    display: flex;
+    justify-content: center;
+}
+
+.rect_jaune {
+    width: 75%;
+    height: 75px;
+    background-color: yellow;
+}
